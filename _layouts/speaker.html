@@ -1,0 +1,31 @@
+---
+layout: default
+---
+<div class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">{{ page.title }}</h1>
+  </header>
+
+  <article class="post-content">
+    {{ content }}
+  </article>
+
+
+    <hr>
+    <h1>Available talks</h1>
+
+    <ul class="post-list">
+      {% for talk in site.categories.talks %}
+
+        {% if talk.speaker_slug == page.speaker_slug %}
+        <li>
+            <a class="post-link" href="{{ talk.url | prepend: site.baseurl }}">{{ talk.title }}</a>
+        </li>
+        {% endif %}
+      {% endfor %}
+    </ul>
+
+
+
+</div>

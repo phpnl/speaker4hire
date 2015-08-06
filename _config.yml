@@ -1,0 +1,12 @@
+title: Speakers for hire
+email: jthijssen@noxlogic.nl
+description: >
+  Find speakers for your meetups.
+baseurl: "/speaker4hire"
+url: "http://phpnl.github.io/"
+twitter_username: phpnl
+github_username:  phpnl
+permalink: none
+
+# Build settings
+markdown: kramdown

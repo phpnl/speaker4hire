@@ -1,0 +1,33 @@
+---
+layout: default
+---
+
+<div class="home">
+
+  <h1 class="page-heading">Latest talks</h1>
+
+  <ul class="post-list">
+    {% for talk in site.categories.talks %}
+      <li>
+          <a class="post-link" href="{{ talk.url | prepend: site.baseurl }}">{{ talk.title }} - {{talk.speaker_name}}</a>
+      </li>
+    {% endfor %}
+  </ul>
+
+    <hr>
+
+    <h1 class="page-heading">Latest speakers</h1>
+
+    <ul class="post-list">
+      {% for speaker in site.categories.speakers %}
+        <li>
+            <a class="post-link" href="{{ speaker.url | prepend: site.baseurl }}">{{ speaker.title }}</a>
+        </li>
+      {% endfor %}
+    </ul>
+
+    <hr>
+
+  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+
+</div>
