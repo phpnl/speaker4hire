@@ -5,9 +5,14 @@ layout: default
 
   <header class="post-header">
     <h1 class="post-title">{{ page.title }}</h1>
-    <p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
 
-      <a href="{{ page.speaker_slug | prepend: '/speakers/' | prepend: site.baseurl }}.html">{{page.speaker_name}}</a>
+      <p class="post-meta">
+      Tagged with: {% for tag in page.tags %}
+      [ <a href="#">{{ tag }}</a> ]
+      {% endfor %}
+      </p>
+
+      Speaker: <a href="{{ page.speaker_slug | prepend: '/speakers/' | prepend: site.baseurl }}.html">{{page.speaker_name}}</a>
   </header>
 
   <article class="post-content">

@@ -6,8 +6,6 @@ date:   2015-08-06 14:00:43
 categories: speakers
 ---
 
-
-
 <img align="right" src="https://en.gravatar.com/userimage/13470472/a08f1a5e59fa0992f9ee38ff78ed5e04.jpg?size=150"/>
 
 # Biography
@@ -28,3 +26,8 @@ enjoys the local usergroup meetups and small audiences for more Q&amp;A and impr
  * [Blog](https://adayinthelifeof.nl)
  * [Joind.in](https://joind.in/user/view/1678)
  * [Github](https://github.com/jaytaph)
+ 
+# Additional youtube presentations:
+ * [https://www.youtube.com/watch?v=Z4piH7PTjVc](https://www.youtube.com/watch?v=Z4piH7PTjVc)
+ * [https://www.youtube.com/watch?v=-sWVS2eerYs](https://www.youtube.com/watch?v=-sWVS2eerYs)
+ * [https://www.youtube.com/watch?v=Ivif0IwMjYM](https://www.youtube.com/watch?v=Ivif0IwMjYM)
