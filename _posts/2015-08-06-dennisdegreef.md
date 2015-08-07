@@ -6,7 +6,7 @@ date:   2015-08-06 22:51:23
 categories: speakers
 ---
 
-<img align="right" src="https://avatars0.githubusercontent.com/u/361905?v=3&s=460"/>
+<img align="right" src="https://avatars0.githubusercontent.com/u/361905?v=3&s=150"/>
 
 # Biography
 Dennis de Greef is a software engineer at TransIP, one of the largest hosting companies in the Netherlands.
